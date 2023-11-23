@@ -1,28 +1,31 @@
 {
-  "users": [
+  "posts": [
     {
       "id": 1,
-      "name": "Juliet Oma",
-      "email": "julie@yahoo.com",
-      "number": "08100000000"
+      "title": "Post 1"
     },
     {
       "id": 2,
-      "name": "James Williams",
-      "email": "jameswilly@gmail.com",
-      "number": "08111111111"
+      "title": "Post 2"
     },
     {
       "id": 3,
-      "name": "Ahmed Ali",
-      "email": "ahmedali012@gmail.com",
-      "number": "09022222222"
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
     },
     {
-      "id": 4,
-      "name": "Grace Funsho",
-      "email": "gracefunsho@gmail.com",
-      "number": "09033333333"
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
     }
-  ]
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
